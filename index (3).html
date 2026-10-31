@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rejina BK – Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;family=IBM+Plex+Sans:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f7fa;--surface:#fff;--ink:#0f1b2d;--muted:#5a6a80;--line:#d9e0ea;--accent:#0a7f8f;--accent2:#c2570c;--on-accent:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#08111f;--surface:#0f1c30;--ink:#e8eef7;--muted:#92a3bb;--line:#1f3250;--accent:#35d0e0;--accent2:#ffb05c;--on-accent:#06202a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#08111f;--surface:#0f1c30;--ink:#e8eef7;--muted:#92a3bb;--line:#1f3250;--accent:#35d0e0;--accent2:#ffb05c;--on-accent:#06202a;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 "IBM Plex Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Space Grotesk",system-ui,sans-serif;line-height:1.15;margin:0}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent2);outline-offset:3px}
+.wrap{max-width:960px;margin:0 auto;padding:0 22px}
+header.top{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;gap:18px;align-items:center;justify-content:space-between;min-height:56px;flex-wrap:wrap}
+header.top b{font-family:"Space Grotesk";font-size:1.05rem}
+nav{display:flex;gap:16px;flex-wrap:wrap;font-size:.92rem}
+nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--accent)}
+.hero{padding:80px 0 60px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(2.8rem,10vw,5.5rem);font-weight:700;letter-spacing:-.03em;margin:0 0 14px}
+.hero p{font-size:1.25rem;max-width:36ch;color:var(--muted);margin:0 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 22px;border-radius:8px;text-decoration:none;border:1px solid var(--accent);cursor:pointer;font:inherit;font-weight:500}
+.btn.p{background:var(--accent);color:var(--on-accent)}
+.btn.s{background:transparent;color:var(--accent)}
+section{padding:60px 0;border-bottom:1px solid var(--line)}
+section h2{font-size:clamp(1.7rem,4vw,2.3rem);margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:22px}
+.card h3{font-size:1.15rem;margin-bottom:6px}
+.card p{margin:0;color:var(--muted);font-size:.97rem}
+.ph{color:var(--muted);font-style:italic}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chips span{font-size:.88rem;padding:4px 13px;border-radius:99px;background:var(--surface);border:1px solid var(--line);color:var(--muted)}
+.two{display:grid;grid-template-columns:1.2fr 1fr;gap:40px}
+form{display:grid;gap:14px}
+label.f{display:grid;gap:5px;font-size:.9rem;color:var(--muted)}
+input,textarea{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:11px 13px;width:100%}
+.mail{display:block;padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);text-decoration:none;color:var(--ink);overflow-wrap:anywhere}
+.mail small{display:block;color:var(--muted)}
+footer{padding:30px 0;color:var(--muted);font-size:.9rem}
+@media(max-width:720px){.two{grid-template-columns:1fr}.hero{padding-top:48px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><b>Rejina BK</b>
+<nav aria-label="Sections"><a href="#about">About</a><a href="#education">Education</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav></div></header>
+<main>
+<div class="hero"><div class="wrap">
+<h1>Rejina BK</h1>
+<p>Business Administration Student | Aspiring Business Professional</p>
+<div class="btns"><a class="btn p" href="#projects">View my work</a><a class="btn s" href="#contact">Get in touch</a></div>
+</div></div>
+
+<section id="about"><div class="wrap"><h2>About me</h2>
+<p style="max-width:62ch">Hello! My name is Rejina BK, and I am a Business Administration student at Pacific States University in California. I am passionate about learning business, developing leadership skills, and understanding how organizations work.</p>
+<p style="max-width:62ch">I enjoy communicating with people, working in teams, solving problems, and gaining new experiences that help me grow both personally and professionally.</p></div></section>
+
+<section id="education"><div class="wrap"><h2>Education</h2>
+<div class="grid"><div class="card"><h3>Pacific States University (PSU)</h3><p>Bachelor’s Degree in Business Administration<br>California, USA<br>Currently enrolled</p></div></div></div></section>
+
+<section id="projects"><div class="wrap"><h2>Projects and work</h2>
+<div class="grid">
+<div class="card"><h3>Business Management and Strategy</h3><p>Completed academic coursework exploring business management, leadership, and organizational strategies. Developed an understanding of how businesses make decisions, solve problems, and achieve their goals.</p></div>
+<div class="card"><h3>Introduction to Algorithms</h3><p>Worked on academic assignments involving searching and sorting algorithms, problem-solving, and computational thinking. Improved analytical skills and learned how technology supports business operations.</p></div></div></div></section>
+
+<section id="experience"><div class="wrap"><h2>Work experience</h2>
+<div class="card"><h3>General Worker, Seven Eleven</h3><p>Laurel, Maryland · January 2025 – June 2025</p>
+<ul style="margin:12px 0 0;padding-left:20px;color:var(--muted)">
+<li>Assisted customers and provided friendly service.</li>
+<li>Prepared and served food while maintaining hygiene and safety.</li>
+<li>Developed communication, teamwork, and time-management skills.</li></ul></div></div></section>
+
+<section id="skills"><div class="wrap"><h2>Skills</h2>
+<div class="chips"><span>Communication and interpersonal skills</span><span>Leadership and teamwork</span><span>Customer service</span><span>Problem-solving and critical thinking</span><span>Time management and organization</span><span>Adaptability and multitasking</span><span>Basic computer and programming skills</span></div></div></section>
+
+<section id="contact"><div class="wrap"><h2>Let’s connect</h2>
+<p style="max-width:62ch;margin:0 0 28px">I am always interested in learning new things, connecting with professionals, and exploring opportunities that help me develop my career.</p>
+<div class="two">
+<form id="cf"><label class="f">Name<input id="n" required placeholder="Your name"></label>
+<label class="f">Email<input id="e" type="email" required placeholder="you@example.com"></label>
+<label class="f">Message<textarea id="m" rows="5" required placeholder="Write your message"></textarea></label>
+<button class="btn p" type="submit">Send message</button></form>
+<div><a class="mail" href="mailto:rejinabk38@gmail.com"><small>Email</small>rejinabk38@gmail.com</a></div></div></div></section>
+</main>
+<footer><div class="wrap">© 2026 Rejina BK</div></footer>
+<script>
+document.getElementById('cf').addEventListener('submit',function(ev){ev.preventDefault();
+var n=document.getElementById('n').value,e=document.getElementById('e').value,m=document.getElementById('m').value;
+location.href='mailto:rejinabk38@gmail.com?subject='+encodeURIComponent('Message from '+n)+'&body='+encodeURIComponent(m+'\n\nReply to: '+e);});
+</script>
+</body>
+</html>
